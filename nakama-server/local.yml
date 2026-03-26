@@ -1,0 +1,15 @@
+logger:
+  level: "DEBUG"
+
+runtime:
+  js_entrypoint: "build/index.js"
+
+match:
+  input_queue_size: 128
+  call_queue_size: 128
+  deferred_queue_size: 128
+  join_attempt_queue_size: 128
+  label_update_queue_size: 128
+
+session:
+  token_expiry_sec: 7200

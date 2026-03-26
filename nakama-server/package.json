@@ -1,0 +1,20 @@
+{
+  "name": "nakama-tic-tac-toe-server",
+  "version": "1.0.0",
+  "description": "Server-authoritative Tic-Tac-Toe game logic for Nakama",
+  "scripts": {
+    "build": "npx rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.0",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "rollup": "^3.29.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.3.0"
+  },
+  "dependencies": {
+    "nakama-common": "github:heroiclabs/nakama-common"
+  }
+}

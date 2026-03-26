@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "declaration": false,
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "typeRoots": [],
+    "types": [],
+    "lib": ["ES5", "ES2015.Promise", "ES2015.Iterable"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "build"]
+}
