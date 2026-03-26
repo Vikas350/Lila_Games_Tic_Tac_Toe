@@ -22,3 +22,7 @@ postgres-data/
 # Logs
 *.log
 npm-debug.log*
+
+# AWS
+*.pem
+user-data.sh
